@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+}
+.nav{
+    text-decoration:none ;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 7px;
+}
+.nav:hover{
+    color: greenyellow;
+}
+#ht{
+    color: white;
+    font-size: 2.1em;
+    margin-right: 480px;
+}
+#cam{
+    font-size: 2.6em;
+    color: #29d9d5;
+    margin-right: 5px;
+}
+#logo{
+    height: 35px;
+    margin: 5px;
+}
+#fr{
+    background-image: linear-gradient(
+      rgba(189, 56, 189, 0.8) 10%,
+      rgb(144, 29, 162, 0.7) 48%,
+      rgba(155, 21, 139, 0.75) 85%
+    ),
+    url("images/IMG-20221125-WA0031.jpg");
+    /* background-color: purple; */
+    height: 90vh;
+    display: flex;
+}
+#mi{
+    height: 70vh;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+#mig{
+    margin-top: 5vh;
+    width: 240px;
+    height: 65vh;
+}
+#imc{
+    align-self: center;
+    margin: 100px;
+    width: 60vw;
+}
+#imc>h1{
+    color: white;
+    font-size: 85px;
+}
+.btn{
+    margin-top: 20px;
+    width: 190px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+#ws>h1{
+    font-size: 2.5em;
+}
+#ws{
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+#cc{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.cd{
+    width: 270px;
+    /* border: 2px solid black; */
+}
+.cd>#f{
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+.cd>#s{
+    margin-top: 10px;
+    font-size: 1em;
+}
+#cb{
+    height: 25vh;
+    background-color: plum;
+    padding-top: 190px;
+    box-sizing: content-box;
+    text-align: center;
+    color: white;
+}
+#cb>h1{
+    font-size: 50px;
+}
+#l{
+    height: 25vh;
+    padding: 100px;
+}
+#lc{
+    width: 700px;
+    margin: auto;
+}
+.li{
+    font-size: 20px;
+    padding: 15px;
+    /* border: 2px solid black; */
+}
+#lim{
+    background-image: linear-gradient(
+      rgba(189, 56, 189, 0.8) 10%,
+      rgb(144, 29, 162, 0.7) 48%,
+      rgba(155, 21, 139, 0.75) 85%
+    ),
+    url("images/IMG-20221125-WA0031.jpg");
+    height: 37vh;
+    padding: 100px;
+    box-sizing: content-box;
+}
+#limc{
+    margin: auto;
+    width: 700px;
+    /* border: 2px solid black; */
+}
+#limc>h1{
+    font-size: 85px;
+    color: white;
+}
+#limc>div{
+    margin: auto;
+    margin-top: 25px;
+}
+#fd1{
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    /* border: white 2px solid; */
+}
+#fd1>h3,#fd1>img{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#fd1>h3{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.fd{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+#ft{
+    /* border: white 2px solid; */
+    color: white;
+    /* margin: auto; */
+    
+}
+thead>tr{
+    font-size: .9em;
+    color: gray;
+}
+td{
+    padding: 5px;
+    padding-right: 250px;
+    text-align: center;
+}
+tbody>tr>td{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
